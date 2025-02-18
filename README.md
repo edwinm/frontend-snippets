@@ -531,6 +531,21 @@ div {
 
 The [aria-label attribute](https://html5accessibility.com/stuff/2024/05/22/not-so-short-note-on-aria-label-usage-big-table-edition/) has much more uses.
 
+## Make icons searchable
+
+Use `hidden="until-found"` to hide text until the user searches for it, recommended when using icons without text.
+
+```html
+<a href="/contact">
+  <svg.../>
+  <span hidden="until-found">Contact</span>
+</a>
+```
+
+This feature is only supported in Chrome, but it's expected to be supported in all browsers in 2025.
+
+See [Rethinking Find-in-Page Accessibility: Making Hidden Text Work for Everyone](https://schepp.dev/posts/rethinking-find-in-page-accessibility-making-hidden-text-work-for-everyone/)
+
 ## Remove semantics
 
 Remove the semantics from an element
