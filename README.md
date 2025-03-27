@@ -316,9 +316,21 @@ Define a custom font. All modern browsers support WOFF2.
 @font-face {
   font-family: MavenPro;
   src: url('fonts/mavenpro/maven_pro_bold-webfont.woff2') format('woff2');
-  font-weight: bold;
+  font-weight: bold; /* for the bold font */
   font-style: normal;
   font-display: swap;
+}
+```
+
+The notation for a variable font is a bit different:
+
+```css
+@font-face {
+    font-family: Roboto;
+    src: url("fonts/Roboto-variable.woff2") format("woff2-variations");
+    font-weight: 100 900; /* min and max weights */
+    font-style: normal; /* italic for the italic font */
+    font-display: swap;
 }
 ```
 
