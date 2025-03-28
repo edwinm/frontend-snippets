@@ -396,6 +396,15 @@ Switch your color scheme to match the light or dark mode of the user.
 
 ```css
 html {
+    color: light-dark(black, white);
+    background-color: light-dark(white, black);
+}
+```
+
+If you have to support older (pre 2024) browsers, you can use the old way:
+
+```css
+html {
     color: black;
     background-color: white;
 }
