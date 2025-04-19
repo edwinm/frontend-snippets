@@ -416,6 +416,16 @@ html {
 }
 ```
 
+To set a light or dark image depending on the color scheme:
+
+```html
+<picture>
+    <source media="(prefers-color-scheme: light)" srcset="light-image.webp">
+    <source media="(prefers-color-scheme: dark)" srcset="dark-image.webp">
+    <img alt="Alternative text" src="light-image.webp">
+</picture>
+```
+
 If you have your own toggle, then don't forget to set the `color-scheme` property, so UI elements will adapt to the theme.
 
 ## CSS stylable icons
