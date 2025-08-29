@@ -334,6 +334,8 @@ The notation for a variable font is a bit different:
 }
 ```
 
+Read more in this [article about loading fonts](https://www.jonoalderson.com/performance/youre-loading-fonts-wrong/).
+
 ## Font weights
 
 Which font weight number belongs to which font weight name.
