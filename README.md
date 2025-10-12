@@ -178,10 +178,12 @@ Show an image and description when sharing on social media (Facebook, Twitter, L
   <meta name="description"
         content="Description of max 200 characters">
   <meta property="og:image" content="https://url-to-image">
-  <meta property="og:image:width" content="476">
-  <meta property="og:image:height" content="249">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Description of image">
 ```
+
+An image size of 1200px × 630px is generally recommended.
 
 By default the page title will be taken from the title element, which often looks like "Page Title - Site Name".
 With meta tags, the page title and site name can be defined separately:
