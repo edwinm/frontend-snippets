@@ -154,6 +154,33 @@ abbr, acronym, blockquote, q {
 }
 ```
 
+## Letter Spacing
+
+Designers tend to pick a tighter letter spacing for larger headings. 
+
+```css
+h1 {
+  letter-spacing: -0.4px;
+}
+
+h2 {
+  letter-spacing: -0.3px;
+}
+```
+
+You can also make the letter spacing dependent on the font size,
+as is explained in [this article from Cloud Four](https://cloudfour.com/thinks/responsive-letter-spacing/).
+
+```css
+h1, h2, h3, h4 {
+  letter-spacing: clamp(
+    -0.05em,
+    calc((1em - 1rem) / -10),
+    0em
+  );
+}
+```
+
 ## Favicon
 
 You can put a favicon.ico in the root of your site and call it a day.
