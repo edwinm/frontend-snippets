@@ -391,13 +391,13 @@ Every webpage should look good on desktop, tablet and mobile.
   padding: 10px;
 }
 /* Tablet */
-@media screen and (min-width: 768px) {
+@media screen and (width > 768px) {
   .box {
     padding: 40px;
   }
 }
 /* Desktop */
-@media screen and (min-width: 1024px) {
+@media screen and (width > 1024px) {
     .box {
       padding: 80px;
     }
