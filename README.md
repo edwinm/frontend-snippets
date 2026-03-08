@@ -334,8 +334,8 @@ html {
     }
 }
 ```
-
-Note: make sure contrast is always good, even without this media query.
+> [!NOTE]  
+> Make sure the contrast is always good, even without this media query.
 
 ## Custom font
 
