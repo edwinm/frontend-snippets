@@ -582,6 +582,19 @@ div {
 }
 ```
 
+## Centering
+
+Easiest way:
+
+```css
+div {
+  position: absolute;
+  inset: 0;
+  place-self: center; 
+}
+```
+
+Instead of `place-self`, you can also use `justify-self` and `align-self` for positioning along the two axes.
 
 ## Use aria-label to provide "alt" for background image
 
