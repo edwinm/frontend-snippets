@@ -594,7 +594,7 @@ div {
 }
 ```
 
-Instead of `place-self`, you can also use `justify-self` and `align-self` for positioning along the two axes.
+The property `place-self` can also accept two values, the same as used with `justify-self` and `align-self`, for positioning along the two axes.
 
 ## Use aria-label to provide "alt" for background image
 
