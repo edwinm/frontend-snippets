@@ -452,9 +452,8 @@ To set a light or dark image depending on the color scheme:
 
 ```html
 <picture>
-    <source media="(prefers-color-scheme: light)" srcset="light-image.webp">
-    <source media="(prefers-color-scheme: dark)" srcset="dark-image.webp">
-    <img alt="Alternative text" src="light-image.webp">
+    <source media="(prefers-color-scheme: dark)" srcset="image-dark.webp">
+    <img width="300" height="200" alt="Alternative text" src="image-light.webp">
 </picture>
 ```
 
