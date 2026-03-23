@@ -261,8 +261,8 @@ See [MDN: Web app manifests](https://developer.mozilla.org/en-US/docs/Web/Manife
 Now refer to these files from your HTML:
 
 ```html
-<link rel="manifest" href="/manifest.json"/>
-<link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
+<link rel="manifest" href="/manifest.json">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#ccccff">
 ```
 
@@ -273,8 +273,8 @@ See [Make your PWA feel more like an app](https://web.dev/articles/app-like-pwas
 
 When your site is multi langual, you can let search engines (and others) know:
 
-<link rel="alternate" hreflang="en"    href="https://example.com/en"/>
-<link rel="alternate" hreflang="pt-BR" href="https://example.com/br"/>
+<link rel="alternate" hreflang="en"    href="https://example.com/en">
+<link rel="alternate" hreflang="pt-BR" href="https://example.com/br">
 
 Always include all supported languages, including the one on the current page.
 The hreflang attribute is in [BCP 47](https://developer.mozilla.org/en-US/docs/Glossary/BCP_47_language_tag) format, like `en-GB`.
@@ -622,7 +622,7 @@ Use `hidden="until-found"` to hide text until the user searches for it, recommen
 
 ```html
 <a href="/contact">
-  <svg.../>
+  <svg...>
   <span hidden="until-found">Contact</span>
 </a>
 ```
@@ -726,13 +726,13 @@ Put the following code in your HTML head.
 Example for an RSS feed:
 
 ```html
-<link rel="alternate" type="application/rss+xml" title="My site name" href="https://example.com/feed.rss.xml" />
+<link rel="alternate" type="application/rss+xml" title="My site name" href="https://example.com/feed.rss.xml">
 ```
 
 Example for an Atom feed:
 
 ```html
-<link rel="alternate" type="application/atom+xml" title="My site name" href="https://example.com/feed.atom.xml" />
+<link rel="alternate" type="application/atom+xml" title="My site name" href="https://example.com/feed.atom.xml">
 ```
 
 ## Miscellaneous CSS properties
