@@ -273,8 +273,10 @@ See [Make your PWA feel more like an app](https://web.dev/articles/app-like-pwas
 
 When your site is multi langual, you can let search engines (and others) know:
 
+```html
 <link rel="alternate" hreflang="en"    href="https://example.com/en">
 <link rel="alternate" hreflang="pt-BR" href="https://example.com/br">
+```
 
 Always include all supported languages, including the one on the current page.
 The hreflang attribute is in [BCP 47](https://developer.mozilla.org/en-US/docs/Glossary/BCP_47_language_tag) format, like `en-GB`.
