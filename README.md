@@ -685,6 +685,26 @@ Then you can also use the `aria-selected` attribute for styling:
 
 See also [WAI-ARIA Authoring Practices](https://www.w3.org/TR/wai-aria-practices/)
 
+## Beautiful shadows
+
+By stacking multiple `box-shadow`s, you can create more beautiful shadows:
+
+- [Shadow Palette Generator](https://www.joshwcomeau.com/shadow-palette/)
+
+Read [Josh Comeau's article](https://www.joshwcomeau.com/css/designing-shadows/) about this technique.
+
+## Beautiful round corners
+
+Simple round corners don't look good. Apply a `squircle` to make the corner smoother.
+
+```css
+.my-div {
+    border: 1px solid grey;
+    border-radius: 8px;
+    corner-shape: squircle;
+}
+```
+
 ## Scrollbar styling
 
 You can style the scrollbar, but this is very browser and operating system dependent,
