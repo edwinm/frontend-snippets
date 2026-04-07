@@ -780,7 +780,7 @@ Handy properties that are hard to memorize but can sometimes be very useful.
 | display: contents                   | Remove the element from the document tree                                | [MDN: display](https://developer.mozilla.org/en-US/docs/Web/CSS/display)                             |
 | isolation: isolate                  | Prevent the element from being affected by the z-index of other elements | [MDN: isolation](https://developer.mozilla.org/en-US/docs/Web/CSS/isolation)                         |
 | content-visibility: hidden          | Hide elements that are not visible on screen                             | [MDN: content-visibility](https://developer.mozilla.org/en-US/docs/Web/CSS/content-visibility)       |
-| contain: size layout paint style    | Prevent the element from affecting the layout of the page                | [MDN: contain](https://developer.mozilla.org/en-US/docs/Web/CSS/contain)                             |
+| contain: size layout paint style    | Prevent the element from affecting the layout of the page                | [What Is CSS Containment and How Can I Use It?](https://csswizardry.com/2026/04/what-is-css-containment-and-how-can-i-use-it/)                             |
 
 ## Checklist
 
