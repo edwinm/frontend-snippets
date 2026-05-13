@@ -212,7 +212,8 @@ Show an image and description when sharing on social media (Facebook, Twitter, L
 
 An image size of 1200px × 630px is generally recommended.
 
-By default the page title will be taken from the title element, which often looks like "Page Title – Site Name".
+By default, the page title will be taken from the title element,
+which often is the page name and site name separated by an en dash (–) or vertical bar (|) and looks like "Page Title – Site Name".
 With meta tags, the page title and site name can be defined separately:
 
 ```html
