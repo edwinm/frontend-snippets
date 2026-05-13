@@ -212,7 +212,7 @@ Show an image and description when sharing on social media (Facebook, Twitter, L
 
 An image size of 1200px × 630px is generally recommended.
 
-By default the page title will be taken from the title element, which often looks like "Page Title - Site Name".
+By default the page title will be taken from the title element, which often looks like "Page Title – Site Name".
 With meta tags, the page title and site name can be defined separately:
 
 ```html
@@ -821,6 +821,15 @@ Single low-9 quotation mark | \&lsquor; | ‚
 Double left quotation mark  | \&ldquo; | “
 Double right quotation mark | \&rdquo; | ”
 Double low-9 quotation mark | \&ldquor; | „
+
+### Dashes
+
+name | entity code | character | used for
+--- |-------------| --- | ---
+Hyphen-minus | -           | -       | Hyphenation
+Minus sign | \&minus;    | −       | Mathematical minus
+En dash | \&ndash;    | –       | Ranges and spans
+Em dash | \&mdash;    | —       | Parenthetical breaks
 
 See also [Character Entity Reference Chart](https://dev.w3.org/html5/html-author/charref)
 
