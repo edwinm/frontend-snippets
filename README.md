@@ -608,13 +608,18 @@ div {
 
 The property `place-self` can also accept two values, the same as used with `align-self` and `justify-self`, for positioning along the two axes.
 
-## Use aria-label to provide "alt" for background image
+## Use aria-label to provide readable text for screen readers
 
-> [!NOTE]  
-> Don't include text in this element.
+> [!NOTE]
+> The text inside the element is overridden by the `aria-label` attribute.
+
+> [!NOTE]
+> Don't use `aria-label` or `aria-labelledby` on generic elements (elements without a semantic meaning) like `<div>` or `<span>`.
+
+Example:
 
 ```html
-<div class="background-image" role="img" aria-label="Alt text"></div>
+<button aria-label="Close">×</button>
 ```
 
 The [aria-label attribute](https://html5accessibility.com/stuff/2024/05/22/not-so-short-note-on-aria-label-usage-big-table-edition/) has much more uses.
