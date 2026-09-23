@@ -11,7 +11,7 @@ Basic HTML to start a website
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width">
     <meta name="description" content="Description of around 200 letters">
     <link rel="stylesheet" href="style.css">
     <script async src='script.js'></script>
